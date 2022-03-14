@@ -1,0 +1,21 @@
+body {
+  background-image: linear-gradient(to right, grey, pink);
+}
+
+.pages li {
+  display: inline-block;
+  text-decoration: none;
+  list-style: none;
+}
+
+.pages ul a {
+  list-style: none;
+  text-decoration: none;
+  position: relative;
+  left: 900px;
+  padding: 30px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=main.css.map */
