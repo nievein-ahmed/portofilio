@@ -14,4 +14,19 @@ body {
   padding: 30px;
   font-weight: bold;
   font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: palevioletred;
+}
+
+img {
+  position: relative;
+  width: 100%;
+  top: 60px;
+  height: 2000px;
+}
+h2 {
+  color: rgb(255, 146, 127);
+  position: absolute;
+  left: 1500px;
+  top: 200px;
 }
