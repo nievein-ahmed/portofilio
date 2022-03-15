@@ -120,17 +120,8 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
-  animation-name: example;
-  animation-duration: 3s;
 }
-@keyframes example {
-  from {
-    background-color: rgb(223, 219, 25);
-  }
-  to {
-    background-color: rgb(216, 24, 56);
-  }
-}
+
 .my-skills {
   display: inline-block;
 }
@@ -199,6 +190,7 @@ h6 {
   background-color: #e4e0d0;
   box-shadow: 3px 3px 3px 3px yellow;
   font-family: "Poppins", sans-serif;
+  border: solid;
 }
 .contact-me {
   position: relative;
