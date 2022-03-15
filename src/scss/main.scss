@@ -122,3 +122,25 @@ h5 {
   align-items: center;
   box-shadow: 3px 3px 3px 3px yellow;
 }
+h6 {
+  color: #796721;
+  position: absolute;
+  top: 60px;
+  left: 400px;
+  font-size: 90px;
+  background-color: #e4e0d0;
+  box-shadow: 3px 3px 3px 3px yellow;
+  font-family: "Poppins", sans-serif;
+}
+.contact-me {
+  position: relative;
+  top: 400px;
+  left: 400px;
+  font-size: 60px;
+  color: black;
+}
+p a {
+  color: black;
+  list-style: none;
+  text-decoration: none;
+}
