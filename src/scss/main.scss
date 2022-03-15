@@ -20,16 +20,53 @@ body {
 
 .about-me img {
   position: relative;
-  width: 100%;
+  width: 70%;
   top: 60px;
-  height: 2000px;
-  box-shadow: 4px 4px 4px 4px goldenrod;
+  height: 1400px;
+  left: 300px;
+}
+.text {
+  position: relative;
+  top: 300px;
+  font-size: 70px;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  color: black;
+  font-family: "Lobster", cursive;
+}
+.text2 {
+  position: absolute;
+  top: 400px;
+  font-size: 70px;
+}
+.multicolor {
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    green,
+    blue,
+    yellow,
+    orange,
+    red
+  );
+}
+
+.title {
+  position: relative;
+  top: 200px;
+  font-size: 70px;
+  background-color: #c17895;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 3px 3px 3px lightgreen;
 }
 h2 {
   color: rgb(255, 146, 127);
   position: absolute;
-  left: 3px;
-  top: 80px;
+  left: 1000px;
+  top: 100px;
   padding: 40px;
   padding-top: 20px;
   font-weight: bold;
@@ -39,11 +76,42 @@ h2 {
 }
 .me {
   position: relative;
-  color: bisque;
   top: 60px;
   font-size: 40px;
-
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(2, 24, 2);
+  box-shadow: 3px 3px 3px 3px yellow;
   font-family: "Lobster", cursive;
+}
+@keyframes move {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: #f76934;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: #d6422d;
+    left: 200px;
+    top: 100px;
+  }
+  75% {
+    background-color: #ed3e49;
+    left: 0px;
+    top: 100px;
+  }
+  100% {
+    background-color: #d62d8d;
+    left: 0px;
+    top: 0px;
+  }
 }
 span {
   color: darkgoldenrod;
