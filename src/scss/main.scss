@@ -212,3 +212,14 @@ p a {
   list-style: none;
   text-decoration: none;
 }
+.title img {
+  float: left;
+  position: absolute;
+  width: 30vw;
+  display: flex;
+  border-radius: 15px 50px;
+}
+
+.title img:hover {
+  transform: scaleX(-1);
+}
