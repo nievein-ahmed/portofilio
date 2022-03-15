@@ -20,10 +20,9 @@ body {
 
 .about-me img {
   position: relative;
-  width: 70%;
+  width: 30%;
   top: 60px;
-  height: 1400px;
-  left: 300px;
+  height: 600px;
 }
 .text {
   position: relative;
@@ -63,10 +62,10 @@ body {
   box-shadow: 3px 3px 3px 3px lightgreen;
 }
 h2 {
-  color: rgb(255, 146, 127);
+  color: #796721;
   position: absolute;
-  left: 1000px;
-  top: 100px;
+  left: 900px;
+  top: 250px;
   padding: 40px;
   padding-top: 20px;
   font-weight: bold;
@@ -85,6 +84,7 @@ h2 {
   color: rgb(2, 24, 2);
   box-shadow: 3px 3px 3px 3px yellow;
   font-family: "Lobster", cursive;
+  left: 50px;
 }
 @keyframes move {
   0% {
