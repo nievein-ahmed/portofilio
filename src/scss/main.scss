@@ -16,6 +16,8 @@ body {
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
   color: palevioletred;
+  text-shadow: 3px 3px yellowgreen;
+  top: 40px;
 }
 .original {
   position: relative;
@@ -51,6 +53,7 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   color: black;
   font-family: "Lobster", cursive;
+  text-shadow: 2px 2px goldenrod;
 }
 .text2 {
   position: absolute;
@@ -80,7 +83,7 @@ body {
   justify-content: center;
   align-items: center;
   box-shadow: 3px 3px 3px 3px lightgreen;
-  padding: 30px;
+  padding: 8px;
 }
 h2 {
   color: #796721;
@@ -95,8 +98,9 @@ h2 {
   flex-direction: column;
 }
 .me {
-  position: relative;
-  top: 60px;
+  position: absolute;
+  left: 200px;
+
   font-size: 40px;
   width: 400px;
   display: flex;
@@ -105,7 +109,7 @@ h2 {
   color: rgb(2, 24, 2);
   box-shadow: 3px 3px 3px 3px yellow;
   font-family: "Lobster", cursive;
-  left: 50px;
+  text-shadow: 2px 2px rgb(230, 230, 42);
 }
 
 span {
