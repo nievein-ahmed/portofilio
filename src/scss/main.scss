@@ -17,26 +17,26 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: palevioletred;
 }
-
-.about-me img {
+.about-me {
+  width: 130px;
+  height: 195px;
   position: relative;
-  width: 30%;
-  top: 60px;
-  height: 600px;
-  animation-name: pictures;
-  animation-duration: 3s;
+  display: inline-block;
 }
-@keyframes pictures {
-  from {
-    background-image: url(./pictures/Snapchat-1265774776.jpg);
-  }
-  to {
-    background-image: url(./pictures/Snapchat-1457602905.jpg);
-  }
+
+.img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.about-me:hover .img-top {
+  display: inline;
 }
 .text {
   position: relative;
-  top: 300px;
+  top: 900px;
   font-size: 70px;
   font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   color: black;
@@ -62,7 +62,7 @@ body {
 
 .title {
   position: relative;
-  top: 200px;
+  top: 900px;
   font-size: 70px;
   background-color: #c17895;
   width: 100%;
@@ -70,6 +70,7 @@ body {
   justify-content: center;
   align-items: center;
   box-shadow: 3px 3px 3px 3px lightgreen;
+  padding: 30px;
 }
 h2 {
   color: #796721;
