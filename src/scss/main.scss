@@ -66,7 +66,7 @@ h2 {
   position: absolute;
   left: 900px;
   top: 250px;
-  padding: 40px;
+  padding: 70px;
   padding-top: 20px;
   font-weight: bold;
   font-size: 80px;
@@ -86,33 +86,7 @@ h2 {
   font-family: "Lobster", cursive;
   left: 50px;
 }
-@keyframes move {
-  0% {
-    background-color: red;
-    left: 0px;
-    top: 0px;
-  }
-  25% {
-    background-color: #f76934;
-    left: 200px;
-    top: 0px;
-  }
-  50% {
-    background-color: #d6422d;
-    left: 200px;
-    top: 100px;
-  }
-  75% {
-    background-color: #ed3e49;
-    left: 0px;
-    top: 100px;
-  }
-  100% {
-    background-color: #d62d8d;
-    left: 0px;
-    top: 0px;
-  }
-}
+
 span {
   color: darkgoldenrod;
   letter-spacing: normal;
@@ -120,8 +94,10 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 40px;
+  position: relative;
+  top: 50px;
 }
-
 .my-skills {
   display: inline-block;
 }
