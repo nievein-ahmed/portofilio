@@ -23,6 +23,16 @@ body {
   width: 30%;
   top: 60px;
   height: 600px;
+  animation-name: pictures;
+  animation-duration: 3s;
+}
+@keyframes pictures {
+  from {
+    background-image: url(./pictures/Snapchat-1265774776.jpg);
+  }
+  to {
+    background-image: url(./pictures/Snapchat-1457602905.jpg);
+  }
 }
 .text {
   position: relative;
