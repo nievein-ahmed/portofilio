@@ -17,26 +17,36 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: palevioletred;
 }
+.original {
+  position: relative;
+  height: 1000px;
+  width: 800px;
+  left: 7px;
+}
 .about-me {
-  width: 130px;
-  height: 195px;
+  width: 190px;
+  height: 200px;
   position: relative;
   display: inline-block;
+  top: 50px;
 }
 
 .img-top {
   display: none;
   position: absolute;
   top: 0;
-  left: 0;
+  left: 7px;
   z-index: 99;
+  height: 1000px;
+  width: 800px;
 }
 .about-me:hover .img-top {
   display: inline;
 }
+
 .text {
   position: relative;
-  top: 900px;
+  top: 200px;
   font-size: 70px;
   font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   color: black;
@@ -62,7 +72,7 @@ body {
 
 .title {
   position: relative;
-  top: 900px;
+  top: 100px;
   font-size: 70px;
   background-color: #c17895;
   width: 100%;
